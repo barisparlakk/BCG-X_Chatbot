@@ -1,3 +1,5 @@
+import pandas as pd
+
 def simple_chatbot(user_query):
     if user_query.lower() == "what is the total revenue?":
         return "The total revenue is [amount]."
